@@ -50,14 +50,6 @@ scr.setup(width=900, height=800)
 scr.bgpic("image/imgclock.gif")
 scr.tracer(0)
 
-pen = turtle.Turtle()
-pen.pensize(20)
-pen.color("red")
-pen.shape("arrow")
-pen.penup()
-pen.goto(0,0)
-pen.pendown()
-
 # ---------------Draw a hour marker ------------------------START ------------------#
 
 # ---------------Create a hands of the clock----------------------------------------#
